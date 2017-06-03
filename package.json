@@ -1,0 +1,33 @@
+{
+  "name": "fixer-io-node",
+  "version": "1.0.0",
+  "description": "A module that interacts with fixer.io API to get foreign exchanges rates.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzochukwueddie/fixer-io-node.git"
+  },
+  "keywords": [
+    "fixer.io",
+    "currency",
+    "exchange",
+    "rates",
+    "historical",
+    "latest"
+  ],
+  "author": "Uzochukwu Eddie Odozi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uzochukwueddie/fixer-io-node/issues"
+  },
+  "homepage": "https://github.com/uzochukwueddie/fixer-io-node#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.15.3",
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
+  }
+}
