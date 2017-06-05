@@ -13,19 +13,41 @@ var api = require('fixer-io-node');
 # latest
 The function returns the latest currency exchange rates with EURO as its base currency
 
+api.latest('latest').then(function(result){
+    console.log(result)
+}).catch(function(error){
+    console.log(error)
+})
+
 # base
-api.base('USD')
 The function returns the latest currency rates passing USD as its base currency. Other currencies like GBP, AUD, EUR, BGN etc
 can be used
 
+api.base('USD').then(function(result){
+    console.log(result)
+}).catch(function(error){
+    console.log(error)
+})
+
 # historical
-api.historical('2005-05-10')
-N.B: Date format: YYYY-MM-DD
 The function gets historical rates for any day since 1999
 
+api.historical('2005-05-10').then(function(result){
+    console.log(result)
+}).catch(function(error){
+    console.log(error)
+})
+
+N.B: Date format: YYYY-MM-DD
+
 # specificRate
-api.specificRate('USD', 'GBP');
 Returns specific exchange rates
+
+api.specificRate('USD', 'GBP').then(function(result){
+    console.log(result)
+}).catch(function(error){
+    console.log(error)
+})
 
 
 
