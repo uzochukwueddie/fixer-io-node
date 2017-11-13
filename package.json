@@ -1,6 +1,6 @@
 {
   "name": "fixer-io-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A module that interacts with fixer.io API to get foreign exchanges rates.",
   "main": "server.js",
   "scripts": {
