@@ -1,4 +1,4 @@
-var http = require('http');
+var http = require('https');
 
 module.exports = {
     latest: function(str){
